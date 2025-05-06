@@ -8,7 +8,7 @@ const Contact = () => {
    return (
       <Container id="contact" className="py-25">
          <h2 className="text-center text-3xl font-bold text-orange-600 mb-5">Contact</h2>
-         <div className="grid grid-cols-3 gap-10 text-orange-300">
+         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-orange-300">
             <div className="flex flex-col justify-center items-center gap-1 bg-gray-700 rounded-lg py-5">
                <HiMail className="size-7 text-gray-50" />
                <h3>Email</h3>

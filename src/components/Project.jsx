@@ -8,7 +8,7 @@ const Project = () => {
    const { projects } = useProjectsStore();
    return (
       <Container>
-         <div className="grid grid-cols-3 gap-5">
+         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {projects.map((project) => (
                <ProjectCard key={project.id} project={project} />
             ))}

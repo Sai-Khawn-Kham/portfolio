@@ -6,7 +6,7 @@ const Skills = () => {
    return (
       <Container id="skills" className="pt-25">
          <h2 className="text-center text-3xl font-bold text-orange-600 mb-5">Skills</h2>
-         <div className="grid grid-cols-4 gap-y-10">
+         <div className="grid grid-cols-2 md:grid-cols-4 gap-y-10">
             <div className="flex justify-center items-center">
                <div className="size-32 flex flex-col items-center justify-center bg-gray-700 hover:bg-gray-600 rounded-full">
                   <FaHtml5 className="size-8 text-orange-500" /><span className="text-2xl font-semibold">HTML</span>
