@@ -11,12 +11,20 @@ const HomePage = () => {
    return (
       <>
          <HeroSection />
+         <Container id='about' className='pt-25'>
+         </Container>
          <AboutSection />
+         <Container id='skills' className='pt-25'>
+            <h2 className="text-center text-3xl font-bold text-orange-600 mb-5">Skills</h2>
+         </Container>
          <Skills />
          <Container id='projects' className='pt-25'>
             <h2 className="text-center text-3xl font-bold text-orange-600 mb-5">Projects</h2>
          </Container>
          <Project />
+         <Container id="contact" className="pt-25">
+            <h2 className="text-center text-3xl font-bold text-orange-600 mb-5">Contact</h2>
+         </Container>
          <Contact />
       </>
    );

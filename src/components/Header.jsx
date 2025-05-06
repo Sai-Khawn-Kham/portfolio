@@ -18,12 +18,12 @@ const Header = () => {
          <div onClick={handleOpenMenu} className={`${openMenu?"block":"hidden"} w-screen h-screen absolute z-10`}></div>
          <Container className="text-gray-50 flex justify-between items-center py-3">
             <Link href={"/"} className="text-orange-500 text-3xl font-bold cursor-pointer">Khawn</Link>
-            <div className="hidden md:flex gap-5 text-xl">
+            <div className="hidden lg:flex gap-5 text-xl">
                {sections.map((section) => (
                   <Link key={section} href={`#${section}`} className={`${activeSection == section ? "underline text-orange-500" : "" } hover:text-orange-800 hover:underline`}>{section}</Link>
                ))}
             </div>
-            <div className="relative md:hidden z-50">
+            <div className="relative lg:hidden z-50">
                <HiMenu onClick={handleOpenMenu} className="size-7" />
                <div className={`${openMenu?"block":"hidden"} w-40 absolute right-0 bg-gray-500 rounded flex flex-col gap-1 p-2`}>
                   {sections.map((section) => (

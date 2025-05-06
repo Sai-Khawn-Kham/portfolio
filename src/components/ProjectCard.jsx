@@ -4,7 +4,7 @@ import React from "react";
 
 const ProjectCard = ({ project }) => {
    return (
-      <div className="flex flex-col gap-2 bg-gray-700 border-2 border-gray-800 hover:border-gray-600 rounded-lg overflow-hidden">
+      <div className="flex flex-col gap-2 bg-gray-600 border-2 border-gray-800 hover:border-gray-600 rounded-lg overflow-hidden">
          <img src={project.img} alt={project.name} />
          <h3 className="text-center text-orange-500">{project.name}</h3>
          <div className="flex justify-center">
