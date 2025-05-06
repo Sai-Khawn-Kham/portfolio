@@ -1,11 +1,24 @@
+import AboutSection from "@/components/AboutSection";
+import Contact from "@/components/Contact";
 import Container from "@/components/Container";
+import HeroSection from "@/components/HeroSection";
+import Project from "@/components/Project";
+import Skills from "@/components/Skills";
 import React from "react";
+import {  } from "react-icons/hi"
 
 const HomePage = () => {
    return (
-      <Container>
-         <div>Home</div>
-      </Container>
+      <>
+         <HeroSection />
+         <AboutSection />
+         <Skills />
+         <Container id='projects' className='pt-25'>
+            <h2 className="text-center text-3xl font-bold text-orange-600 mb-5">Projects</h2>
+         </Container>
+         <Project />
+         <Contact />
+      </>
    );
 };
 

@@ -7,9 +7,14 @@ import React from 'react'
 const RootLayout = ({ children }) => {
   return (
    <html lang="en">
-      <body className="flex flex-col min-h-screen">
+      <head>
+         <meta charSet="UTF-8" />
+         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+         <title>Portfolio</title>
+      </head>
+      <body className="flex flex-col min-h-screen bg-gray-800 font-mono">
          <Header />
-         <main className="">
+         <main>
             {children}
          </main>
          <Footer />
