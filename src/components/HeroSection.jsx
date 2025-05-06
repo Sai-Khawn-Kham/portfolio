@@ -18,7 +18,7 @@ const HeroSection = () => {
                <Link target="_blank" className="border border-orange-600 rounded-full hover:bg-orange-600 duration-700 p-3 group" href={"mailto:khawnkham222@gmail.com"}><HiMail className="text-orange-600 group-hover:text-gray-950 duration-300" /></Link>
             </div>
             <div className="flex items-center justify-center">
-               <Link href="/assets/resume/resume.pdf" download="resume-khawn.pdf" className="inline-block text-orange-600 text-xl font-semibold hover:bg-orange-600 hover:text-gray-950 duration-500 border border-orange-600 px-3 py-1 rounded">Download CV</Link>
+               <Link href="/assets/resume/resume-khawn.pdf" download="resume-khawn.pdf" className="inline-block text-orange-600 text-xl font-semibold hover:bg-orange-600 hover:text-gray-950 duration-500 border border-orange-600 px-3 py-1 rounded">Download CV</Link>
             </div>
          </div>
          <div className="p-5">
