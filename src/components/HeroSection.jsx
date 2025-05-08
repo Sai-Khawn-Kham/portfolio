@@ -7,8 +7,8 @@ import Container from "./Container";
 
 const HeroSection = () => {
    return (
-      <Container id="home" className="grid md:grid-cols-3 gap-0 md:gap-5 text-gray-50 pt-25">
-         <div className="md:col-span-2 flex flex-col justify-center items-center md:items-start gap-2 md:gap-3">
+      <Container id="home" className="grid md:grid-cols-3 gap-0 md:gap-5 text-gray-50">
+         <div className="md:col-span-2 flex flex-col justify-center gap-3">
             <h1 className="text-xl md:text-5xl font-bold">Hello! I'm <span className="text-orange-600">Khawn</span></h1>
             <h2 className="text-lg md:text-3xl font-bold">I'm a <span className="text-orange-600">Frontend Developer</span></h2>
             <p className="">Aspiring Frontend Developer skilled in HTML, CSS, JavaScript, Tailwind CSS, React.js, Next.js and familiar with API integration for CRUD operations.</p>

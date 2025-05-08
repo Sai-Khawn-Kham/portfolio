@@ -10,9 +10,9 @@ import {  } from "react-icons/hi"
 const HomePage = () => {
    return (
       <>
+         <Container id="home" className="pt-25" />
          <HeroSection />
-         <Container id='about' className='pt-25'>
-         </Container>
+         <Container id='about' className='pt-25' />
          <AboutSection />
          <Container id='skills' className='pt-25'>
             <h2 className="text-center text-3xl font-bold text-orange-600 mb-5">Skills</h2>
