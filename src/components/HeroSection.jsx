@@ -12,12 +12,12 @@ const HeroSection = () => {
             <h1 className="text-xl md:text-5xl font-bold">Hello! I'm <span className="text-orange-600">Khawn</span></h1>
             <h2 className="text-lg md:text-3xl font-bold">I'm a <span className="text-orange-600">Frontend Developer</span></h2>
             <p className="">Aspiring Frontend Developer skilled in HTML, CSS, JavaScript, Tailwind CSS, React.js, Next.js and familiar with API integration for CRUD operations.</p>
-            <div className="flex justify-center items-center gap-3">
+            <div className="flex items-center gap-3">
                <Link target="_blank" className="border border-orange-600 rounded-full hover:bg-orange-600 duration-700 p-3 group" href={"https://www.linkedin.com/in/khawn-kham-67700b34a"}><BsLinkedin className="text-orange-600 group-hover:text-gray-950 duration-300" /></Link>
                <Link target="_blank" className="border border-orange-600 rounded-full hover:bg-orange-600 duration-700 p-3 group" href={"https://github.com/Sai-Khawn-Kham"}><BsGithub className="text-orange-600 group-hover:text-gray-950 duration-300" /></Link>
                <Link target="_blank" className="border border-orange-600 rounded-full hover:bg-orange-600 duration-700 p-3 group" href={"mailto:khawnkham222@gmail.com"}><HiMail className="text-orange-600 group-hover:text-gray-950 duration-300" /></Link>
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center">
                <Link href="/assets/resume/resume-khawn.pdf" download="resume-khawn.pdf" className="inline-block text-orange-600 text-xl font-semibold hover:bg-orange-600 hover:text-gray-950 duration-500 border border-orange-600 px-3 py-1 rounded">Download CV</Link>
             </div>
          </div>
