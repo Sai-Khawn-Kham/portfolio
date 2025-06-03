@@ -7,18 +7,18 @@ import Link from "next/link";
 const Contact = () => {
    return (
       <Container className="pb-25">
-         <div className="w-1/3 mx-auto grid grid-cols-1 gap-10 text-orange-300">
-            <div className="flex flex-col justify-center items-center gap-1 bg-gray-600 rounded-lg py-5">
+         <div className="md:w-1/3 mx-auto grid grid-cols-1 gap-10 text-orange-300">
+            <div className="flex flex-col justify-center items-center gap-1 bg-gray-600 rounded-lg py-7">
                <HiMail className="size-7 text-gray-50" />
                <h3>Email</h3>
                <Link className="bg-orange-500 hover:bg-orange-600 text-gray-900 font-medium py-0.5 px-2 rounded" href={"mailto:khawnkham222@gmail.com"}>Send Email</Link>
             </div>
-            <div className="flex flex-col justify-center items-center gap-1 bg-gray-600 rounded-lg py-5">
+            <div className="flex flex-col justify-center items-center gap-1 bg-gray-600 rounded-lg py-7">
                <FaGithub className="size-7 text-gray-50" />
                <h3>GitHub</h3>
                <Link className="bg-orange-500 hover:bg-orange-600 text-gray-900 font-medium py-0.5 px-2 rounded" href={"https://github.com/Sai-Khawn-Kham"} target="_blank">Visit</Link>
             </div>
-            <div className="flex flex-col justify-center items-center gap-1 bg-gray-600 rounded-lg py-5">
+            <div className="flex flex-col justify-center items-center gap-1 bg-gray-600 rounded-lg py-7">
                <FaLinkedin className="size-7 text-blue-400" />
                <h3>LinkedIn</h3>
                <Link className="bg-orange-500 hover:bg-orange-600 text-gray-900 font-medium py-0.5 px-2 rounded" href={"https://www.linkedin.com/in/khawn-kham-67700b34a"} target="_blank">Send Message</Link>

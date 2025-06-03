@@ -18,7 +18,7 @@ const useActiveSection = (sectionIds, threshold = 0.5) => {
          },
          {
             threshold: threshold,
-            rootMargin: "0px 0px -50% 0px",
+            rootMargin: "0px 0px -80% 0px",
          }
       );
 
