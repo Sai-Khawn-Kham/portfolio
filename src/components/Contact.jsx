@@ -21,7 +21,7 @@ const Contact = () => {
             <div className="flex flex-col justify-center items-center gap-1 bg-gray-600 rounded-lg py-7">
                <FaLinkedin className="size-7 text-blue-400" />
                <h3>LinkedIn</h3>
-               <Link className="bg-orange-500 hover:bg-orange-600 text-gray-900 font-medium py-0.5 px-2 rounded" href={"https://www.linkedin.com/in/khawn-kham-67700b34a"} target="_blank">Send Message</Link>
+               <Link className="bg-orange-500 hover:bg-orange-600 text-gray-900 font-medium py-0.5 px-2 rounded" href={"https://www.linkedin.com/in/khawn-kham-67700b34a"} target="_blank">View Profile</Link>
             </div>
          </div>
       </Container>
