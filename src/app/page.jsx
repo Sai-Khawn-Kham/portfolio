@@ -5,7 +5,6 @@ import HeroSection from "@/components/HeroSection";
 import Project from "@/components/Project";
 import Skills from "@/components/Skills";
 import React from "react";
-import {  } from "react-icons/hi"
 
 const HomePage = () => {
    return (
