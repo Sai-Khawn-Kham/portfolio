@@ -23,9 +23,9 @@ const AboutSection = () => {
       </div>
       <div className="col-span-2 flex flex-col gap-2 py-10 px-5">
         <h2 className="text-3xl font-bold text-gray-800">About Me</h2>
-        <h3 className="text-xl font-semibold text-gray-800">I'm Khawn Kham</h3>
+        {/* <h3 className="text-xl font-semibold text-gray-800">I'm Khawn Kham</h3> */}
         <p className="">
-          Aspiring Frontend Developer skilled in React.js, Next.js. Built
+          Aspiring Frontend Developer skilled in React, Next.js. Built
           multiple projects using Next.js & tailwind CSS. Familiar with API
           integration. Passionate for building scalable applications and
           contribute to real world challenges.

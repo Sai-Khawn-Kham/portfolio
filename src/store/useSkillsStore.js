@@ -33,7 +33,7 @@ const useSkillsStore = create((set) => ({
     {
       id: 6,
       icon: <FaReact className="size-8 text-cyan-500" />,
-      title: "React.js",
+      title: "React",
     },
     {
       id: 7,

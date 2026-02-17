@@ -9,8 +9,8 @@ const HeroSection = () => {
    return (
       <Container id="home" className="grid md:grid-cols-3 gap-0 md:gap-5 text-gray-50">
          <div className="md:col-span-2 flex flex-col justify-center gap-3">
-            <h1 className="text-xl md:text-5xl font-bold">Hello! I'm <span className="text-orange-600">Khawn</span></h1>
-            <h2 className="text-lg md:text-3xl font-bold">I'm a <span className="text-orange-600">Frontend Developer</span></h2>
+            <h1 className="text-xl md:text-5xl font-bold">Hello! I'm Khawn</h1>
+            <h2 className="text-lg md:text-3xl font-bold"><span className="text-orange-600">a Frontend Developer</span></h2>
             {/* <p className="">Aspiring Frontend Developer skilled in React and Next. Familiar with API integration.</p> */}
             <div className="flex items-center gap-3">
                <Link target="_blank" className="border border-orange-600 rounded-full hover:bg-orange-600 duration-700 p-3 group" href={"https://www.linkedin.com/in/khawn-kham-67700b34a"}><BsLinkedin className="text-orange-600 group-hover:text-gray-950 duration-300" /></Link>
