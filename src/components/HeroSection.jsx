@@ -22,7 +22,7 @@ const HeroSection = () => {
             </div>
          </div>
          <div className="p-5">
-            <Image src={"/assets/me.jpg"} width={1831} height={2448} alt="khawn kham" className="" />
+            <img src={"assets/me.jpg"} width={1831} height={2448} alt="khawn kham" className="" />
          </div>
       </Container>
    );

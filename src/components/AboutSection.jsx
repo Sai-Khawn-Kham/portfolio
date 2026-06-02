@@ -13,8 +13,8 @@ const AboutSection = () => {
       className="grid grid-cols-1 md:grid-cols-3 items-center justify-center"
     >
       <div className="p-10 hidden md:block">
-        <Image
-          src={"/assets/about.jpeg"}
+        <img
+          src={"assets/about.jpeg"}
           width={771}
           height={1028}
           alt="about"
