@@ -6,6 +6,7 @@ const nextConfig = {
    // remotePatterns: {
    //    domains: ["fakestoreapi.com"] // to use images from fakestoreapi.com
    // }
+   output: 'export',
 };
 
 export default nextConfig;
