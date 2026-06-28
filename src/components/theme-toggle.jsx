@@ -20,13 +20,13 @@ export function ThemeToggle() {
   return (
     <button
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-      className="p-2 rounded-md border border-gray-200 dark:border-gray-800 hover:bg-gray-100 dark:hover:bg-gray-900 transition-colors"
+      className="p-1 rounded-md border border-gray-300 dark:border-gray-600 hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors cursor-pointer"
       aria-label="Toggle theme"
     >
       {theme === "dark" ? (
-        <LuSun className="h-5 w-5 text-yellow-500" />
+        <LuSun className="size-6 text-yellow-500" />
       ) : (
-        <LuMoon className="h-5 w-5 text-slate-700" />
+        <LuMoon className="size-6 text-slate-700" />
       )}
     </button>
   )

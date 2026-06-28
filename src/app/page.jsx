@@ -1,4 +1,3 @@
-import AboutSection from "@/components/AboutSection";
 import ContactSection from "@/components/ContactSection";
 import HeroSection from "@/components/HeroSection";
 import ProjectSection from "@/components/ProjectSection";
@@ -7,13 +6,12 @@ import React from "react";
 
 const HomePage = () => {
    return (
-      <>
+      <main>
          <HeroSection />
-         <AboutSection />
          <SkillSection />
          <ProjectSection />
          <ContactSection />
-      </>
+      </main>
    );
 };
 

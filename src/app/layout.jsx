@@ -14,17 +14,17 @@ const RootLayout = ({ children }) => {
          <title>Portfolio</title>
       </head>
       <body className="min-h-screen bg-white dark:bg-gray-800 text-black dark:text-white font-mono">
-         {/* <ThemeProvider
+         <ThemeProvider
             attribute="class"
             defaultTheme="system"
             enableSystem
             disableTransitionOnChange
-         > */}
+         >
             <Header />
             {children}
             <Footer />
             <Toaster />
-         {/* </ThemeProvider> */}
+         </ThemeProvider>
       </body>
    </html>
 );

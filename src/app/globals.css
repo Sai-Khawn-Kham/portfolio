@@ -12,3 +12,7 @@
 .hsb::-webkit-scrollbar {
    display: none;
 }
+
+.clip-path-parallelogram {
+   clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+}
