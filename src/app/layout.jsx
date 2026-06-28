@@ -3,40 +3,28 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { Toaster } from "react-hot-toast";
 import React from 'react'
+import { ThemeProvider } from "@/components/theme-provider";
 
 const RootLayout = ({ children }) => {
   return (
-   <html lang="en">
+   <html lang="en" suppressHydrationWarning>
       <head>
          <meta charSet="UTF-8" />
          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
          <title>Portfolio</title>
       </head>
-      <body className="flex flex-col min-h-screen bg-gray-800 font-mono">
-         <Header />
-         <main>
+      <body className="min-h-screen bg-white dark:bg-gray-800 text-black dark:text-white font-mono">
+         <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+         >
+            <Header />
             {children}
-         </main>
-         <Footer />
-         <Toaster
-            // toastOptions={{
-            //    // Default
-            //    className: "",
-            //    duration: 2000,
-            //    style: {
-            //       background: "#363636",
-            //       color: "#fff",
-            //    },
-            //    // Default for specific types
-            //    success: {
-            //       duration: 2000,
-            //       theme: {
-            //          primary: "green",
-            //          secondary: "black",
-            //       },
-            //    },
-            // }}
-         />
+            <Footer />
+            <Toaster />
+         </ThemeProvider>
       </body>
    </html>
 );

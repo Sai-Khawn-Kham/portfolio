@@ -1,9 +1,8 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
    --leading-1: 1;
-   --color-white-500: #fff;
-   --color-black-500: #000;
 }
 
 .hsb {
@@ -12,4 +11,8 @@
 }
 .hsb::-webkit-scrollbar {
    display: none;
+}
+
+.clip-path-parallelogram {
+   clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
 }

@@ -1,31 +1,17 @@
-import AboutSection from "@/components/AboutSection";
-import Contact from "@/components/Contact";
-import Container from "@/components/Container";
+import ContactSection from "@/components/ContactSection";
 import HeroSection from "@/components/HeroSection";
-import Project from "@/components/Project";
-import Skills from "@/components/Skills";
+import ProjectSection from "@/components/ProjectSection";
+import SkillSection from "@/components/SkillSection";
 import React from "react";
 
 const HomePage = () => {
    return (
-      <>
-         <Container id="home" className="pt-25" />
+      <main>
          <HeroSection />
-         <Container id='about' className='pt-25' />
-         <AboutSection />
-         <Container id='skills' className='pt-25'>
-            <h2 className="text-center text-3xl font-bold text-orange-600 mb-5">Skills</h2>
-         </Container>
-         <Skills />
-         <Container id='projects' className='pt-25'>
-            <h2 className="text-center text-3xl font-bold text-orange-600 mb-5">Projects</h2>
-         </Container>
-         <Project />
-         <Container id="contact" className="pt-25">
-            <h2 className="text-center text-3xl font-bold text-orange-600 mb-5">Contact</h2>
-         </Container>
-         <Contact />
-      </>
+         <SkillSection />
+         <ProjectSection />
+         <ContactSection />
+      </main>
    );
 };
 

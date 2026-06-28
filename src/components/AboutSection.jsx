@@ -3,14 +3,10 @@ import React from "react";
 import Container from "./Container";
 
 const AboutSection = () => {
-  const styles = {
-    background: "#fbceb1",
-    background: `linear-gradient(90deg, #fbceb1 0%, #ff8c00 50%, #cc5500 100%)`,
-  };
   return (
     <Container
-      styles={styles}
-      className="grid grid-cols-1 md:grid-cols-3 items-center justify-center"
+      id="about"
+      className="bg-gradient-to-r from-[#fbceb1] from-0% via-[#ff8c00] via-50% to-[#cc5500] to-100% grid grid-cols-1 md:grid-cols-3 items-center justify-center my-25 scroll-mt-20"
     >
       <div className="p-10 hidden md:block">
         <img
