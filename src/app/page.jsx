@@ -1,18 +1,7 @@
-import ContactSection from "@/components/ContactSection";
-import HeroSection from "@/components/HeroSection";
-import ProjectSection from "@/components/ProjectSection";
-import SkillSection from "@/components/SkillSection";
-import React from "react";
+import HomePage from "@/features/pages/HomePage";
 
-const HomePage = () => {
-   return (
-      <main>
-         <HeroSection />
-         <SkillSection />
-         <ProjectSection />
-         <ContactSection />
-      </main>
-   );
+const Page = () => {
+  return <HomePage />;
 };
 
-export default HomePage;
+export default Page;

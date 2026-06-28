@@ -26,7 +26,7 @@ const useContactStore = create((set) => ({
       url: "https://www.linkedin.com/in/khawn-kham-67700b34a/",
       content: "View Profile",
     },
-  ]
-}))
+  ],
+}));
 
 export default useContactStore;

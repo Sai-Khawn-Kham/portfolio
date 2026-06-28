@@ -1,20 +1,19 @@
-"use client"
-
-import * as React from "react"
-import { useTheme } from "next-themes"
-import { LuMoon, LuSun } from "react-icons/lu"
+"use client";
+import * as React from "react";
+import { useTheme } from "next-themes";
+import { LuMoon, LuSun } from "react-icons/lu";
 
 export function ThemeToggle() {
-  const { theme, setTheme } = useTheme()
-  const [mounted, setMounted] = React.useState(false)
+  const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = React.useState(false);
 
   // Prevents hydration flash
   React.useEffect(() => {
-    setMounted(true)
-  }, [])
+    setMounted(true);
+  }, []);
 
   if (!mounted) {
-    return <div className="w-9 h-9" />
+    return <div className="w-9 h-9" />;
   }
 
   return (
@@ -29,5 +28,5 @@ export function ThemeToggle() {
         <LuMoon className="size-6 text-slate-700" />
       )}
     </button>
-  )
+  );
 }
