@@ -4,9 +4,10 @@ import { FaGithub, FaLinkedin, FaTelegram, FaViber } from "react-icons/fa"
 import { HiMail } from "react-icons/hi";
 import Link from "next/link";
 
-const Contact = () => {
+const ContactSection = () => {
    return (
-      <Container className="pb-25">
+      <Container id="contact" className="my-25 scroll-mt-20">
+         <h2 className="text-center text-3xl font-bold text-orange-600 mb-5">Contact</h2>
          <div className="md:w-1/3 mx-auto grid grid-cols-1 gap-10 text-orange-300">
             <div className="flex flex-col justify-center items-center gap-1 bg-gray-600 rounded-lg py-7">
                <HiMail className="size-7 text-gray-50" />
@@ -28,4 +29,4 @@ const Contact = () => {
    );
 };
 
-export default Contact;
+export default ContactSection;

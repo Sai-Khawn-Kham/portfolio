@@ -1,9 +1,8 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
    --leading-1: 1;
-   --color-white-500: #fff;
-   --color-black-500: #000;
 }
 
 .hsb {

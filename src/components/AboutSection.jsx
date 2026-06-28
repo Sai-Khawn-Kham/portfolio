@@ -9,8 +9,9 @@ const AboutSection = () => {
   };
   return (
     <Container
+      id="about"
       styles={styles}
-      className="grid grid-cols-1 md:grid-cols-3 items-center justify-center"
+      className="grid grid-cols-1 md:grid-cols-3 items-center justify-center mt-25 scroll-mt-20"
     >
       <div className="p-10 hidden md:block">
         <img

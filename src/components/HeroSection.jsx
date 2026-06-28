@@ -1,17 +1,33 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { BsGithub, BsLinkedin } from "react-icons/bs"
 import { HiMail } from "react-icons/hi"
 import Container from "./Container";
+import Typed from "typed.js";
 
 const HeroSection = () => {
+   const el = useRef(null);
+
+   useEffect(() => {
+      const typed = new Typed(el.current, {
+         strings: ["Khawn", "a Frontend Developer", "a React Developer"],
+         typeSpeed: 70,
+         backSpeed: 70,
+         loop: true
+      })
+      return () => {
+         typed.destroy();
+      }
+   }, [])
    return (
-      <Container id="home" className="grid md:grid-cols-3 gap-0 md:gap-5 text-gray-50">
+      <Container id="home" className="grid md:grid-cols-3 gap-0 md:gap-5 text-gray-50 mt-25 scroll-mt-20">
          <div className="md:col-span-2 flex flex-col justify-center gap-3">
-            <h1 className="text-xl md:text-5xl font-bold">Hello! I'm Khawn</h1>
-            <h2 className="text-lg md:text-3xl font-bold"><span className="text-orange-600">a Frontend Developer</span></h2>
-            {/* <p className="">Aspiring Frontend Developer skilled in React and Next. Familiar with API integration.</p> */}
+            <h1 className="text-xl md:text-5xl font-bold">
+               Hello! I'm{" "}
+               <span ref={el} className="text-orange-600" />
+            </h1>
             <div className="flex items-center gap-3">
                <Link target="_blank" className="border border-orange-600 rounded-full hover:bg-orange-600 duration-700 p-3 group" href={"https://www.linkedin.com/in/khawn-kham-67700b34a"}><BsLinkedin className="text-orange-600 group-hover:text-gray-950 duration-300" /></Link>
                <Link target="_blank" className="border border-orange-600 rounded-full hover:bg-orange-600 duration-700 p-3 group" href={"https://github.com/Sai-Khawn-Kham"}><BsGithub className="text-orange-600 group-hover:text-gray-950 duration-300" /></Link>
